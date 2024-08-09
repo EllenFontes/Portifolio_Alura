@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.btn {
+    color: black;
+    background-color: #22D4FD;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+strong {
+    color: #22D4FD;
+}
