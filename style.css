@@ -1,16 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: black;
+    box-sizing: border-box; /*Impede os elementos filhos de sair do elemento pai  */
     color: whitesmoke;
+    height: 100vh; /*Ajusta para que o site ocupe 100% da tela do usuário sem deixar espaços em branco acima ou abaixo do conteudo  */
 }
 
 .btn {
     color: black;
     background-color: #22D4FD;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 25px;
+    padding: 20px;
 }
 
-strong {
+.titulo-destaque {
     color: #22D4FD;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
 }
